@@ -1,0 +1,19 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; color: #333; line-height: 1.6; display: flex; justify-content: center; padding: 2rem; }
+.resume-wrapper { display: flex; max-width: 950px; background: #fff; box-shadow: 0 10px 20px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden; }
+.sidebar { width: 35%; background: #1a252f; color: #ecf0f1; padding: 2.5rem 2rem; }
+.main-content { width: 65%; padding: 2.5rem 3rem; background: #ffffff; }
+h1 { font-size: 2.8rem; margin-bottom: 0.5rem; color: #3498db; letter-spacing: 1px; }
+h2 { font-size: 1.5rem; border-bottom: 2px solid #3498db; padding-bottom: 0.5rem; margin-bottom: 1.2rem; color: #2c3e50; margin-top: 2rem; text-transform: uppercase; letter-spacing: 1px; }
+.sidebar h2 { border-bottom-color: #7f8c8d; color: #bdc3c7; margin-top: 2.5rem; }
+.contact-info { margin-bottom: 2rem; border-bottom: 1px solid #34495e; padding-bottom: 1rem; }
+.contact-info p { margin-bottom: 0.5rem; font-size: 0.95rem; color: #bdc3c7; }
+.skills-list { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.skills-list li { background: #2c3e50; border: 1px solid #34495e; padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.85rem; color: #ecf0f1; }
+.section-item { margin-bottom: 1.8rem; }
+.section-item h3 { font-size: 1.2rem; color: #2980b9; margin-bottom: 0.2rem; }
+.section-item .date-location { font-style: italic; font-size: 0.9rem; color: #7f8c8d; margin-bottom: 0.8rem; font-weight: bold; }
+.section-item ul { list-style-type: none; padding-left: 0; }
+.section-item ul li { margin-bottom: 0.5rem; position: relative; padding-left: 1.2rem; }
+.section-item ul li::before { content: '▹'; position: absolute; left: 0; color: #3498db; font-weight: bold; }
+.objective { font-size: 1.05rem; margin-bottom: 1.5rem; color: #555; }
